@@ -1,0 +1,11 @@
+created: 20210328004142342
+creator: mkrooted
+modified: 20210329112945183
+modifier: mkrooted
+tags: SeparationAxioms Math/Topology Definition
+title: T4Axiom
+type: text/vnd.tiddlywiki
+
+$$\forall F, G$$ – замкнені $$\exists U(F), V(G) :\; U\cap V = \varnothing$$
+
+A T4 space is a [[T1 Space|T1Axiom]] that is normal; this is equivalent to X being normal and Hausdorff.

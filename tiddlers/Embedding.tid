@@ -1,0 +1,17 @@
+created: 20210331122336791
+creator: mkrooted
+modified: 20210331123509309
+modifier: mkrooted
+tags: Definition Math/Topology
+title: Embedding
+type: text/vnd.tiddlywiki
+
+! Вложение
+$$(X,\tau), (Y, \eta)$$ – [[TopologicalSpace]]s
+
+<<<
+$$f: X\to Y$$ – ''embedding'' $$\iff f: X\to f(X)$$ – [[Homeomorphism]] 
+<<<
+
+! Notation
+>$$ f: X \hookrightarrow Y$$

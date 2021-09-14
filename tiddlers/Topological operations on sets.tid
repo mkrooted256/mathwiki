@@ -1,0 +1,16 @@
+created: 20210331130153299
+creator: mkrooted
+modified: 20210331131329154
+modifier: mkrooted
+tags: Math/Topology
+title: Topological operations on sets
+type: text/vnd.tiddlywiki
+
+!! Interior / Внутренность
+>$$\displaystyle A^0 = Int(A) = \bigcup_\alpha V_\alpha \;,\;$$ where $$\;V_\alpha \;$$ – open subsets of A 
+
+!! Closure / Замыкание
+>$$\displaystyle \bar A = \bigcap_\alpha V_\alpha \;,\;$$ where $$\;V_\alpha \;$$ – closed supersets of A 
+
+!! Boundary / Граница
+> $$\partial A = \bar A \setminus A^0$$

@@ -1,0 +1,17 @@
+created: 20210329105023535
+creator: mkrooted
+modified: 20210329105639283
+modifier: mkrooted
+tags: Definition Math/Topology
+title: Центрированная система
+type: text/vnd.tiddlywiki
+
+$$(X, \tau)$$ – топологічний простір
+
+<<<
+Система множин $$\{A_\alpha\}$$ – центрована, якщо 
+
+$$\displaystyle \forall \{A_{\alpha_k}\} (k=1..n) :\; \bigcap_{k=1}^n A_{\alpha_k} \ne \varnothing$$
+<<<
+
+Через центровану систему можна визначити [[компакт|Compactness]]

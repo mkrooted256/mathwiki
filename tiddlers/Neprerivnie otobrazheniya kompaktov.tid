@@ -1,0 +1,15 @@
+created: 20210329121555119
+creator: mkrooted
+modified: 20210329122719302
+modifier: mkrooted
+tags: Compactness Theorem Math/Topology
+title: Непрерывные отображения компактов
+type: text/vnd.tiddlywiki
+
+1. 
+
+> Образ компакта при непрерывном отображении – компакт
+
+2. $$(X, \tau)$$ - компакт
+
+> Всякая $$\varphi:X\to\mathbb R$$ на компакте  достигает своих $$\inf ,\;\sup$$ значений

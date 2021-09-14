@@ -1,0 +1,22 @@
+created: 20210406104219448
+creator: mkrooted
+modified: 20210406104940221
+modifier: mkrooted
+tags: Math/MeasureTheory
+title: Extended Measure
+type: text/vnd.tiddlywiki
+
+Let
+
+* $$(X, R, \mu)$$ -- Measure Space
+* $$R^* = \{E\subset X \;\;|\;\; \exists\: A,B \in R :\; A\subset E \subset B \:\&\: \mu(B\setminus A)=0 \}$$
+* $$\mu(E) := \mu(A)$$
+
+Then 
+
+* new $$\mu$$ is a [[Measure]]
+* $$R^*$$ is a $$\sigma$$[[-algebra|SigmaAlgebra]]
+
+---
+
+This new $$\mu$$ also called Complete Measure since all subsets of all sets of measure 0 are now measurable

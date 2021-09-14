@@ -1,0 +1,23 @@
+created: 20210331134057490
+creator: mkrooted
+modified: 20210331135541611
+modifier: mkrooted
+tags: Definition Math/Topology
+title: Ультраметрика
+type: text/vnd.tiddlywiki
+
+$$\rho: X^2 \to [0,+\inf)$$ – ''Ультраметрика'' если
+
+# $$\rho(x,y) = 0 \iff x=y$$
+# $$\rho(x,y) = \rho(y,x)$$
+# $$\rho(x,z) \le \max\{\rho(x,y), \rho(y,z)\}$$
+
+!! Properties
+* $$\rho$$ – [[метрика|MetricSpace]]
+* Любой треугольник – равнобедренный. Если он не равносторонний, то две стороны больше третьей
+* Любая точка шара – центр
+* Если 2 шара пересекаются, то либо они совпадают, либо один содержится в другом
+
+!! Examples
+{{UltrametricSpaceExamples}}
+см также DiscreteSpace

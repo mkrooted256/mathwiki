@@ -1,0 +1,46 @@
+created: 20210910102015823
+creator: mkrooted
+modified: 20210910105452055
+modifier: mkrooted
+tags: Math/Optimization
+title: Optimization: Convergence theorems
+type: text/vnd.tiddlywiki
+
+! Lemma 4.1
+> (Аттеков 168)
+Let $$\varphi_k = f_k - f^*$$. 
+$$ 
+\varphi_{k-1} - \varphi_k \ge \gamma_k \varphi_{k-1}^2 \quad\implies\quad 
+\varphi_m \le \frac{\varphi_0}{1+\sum_{k=1}^{m}\gamma_k}
+$$
+
+(квадрат $$\varphi_{k-1}^2$$ взявся з умови опуклості функції, "штучно")
+
+! Theorem 4.1
+> (Аттеков 168)
+
+Let $$\gamma_k = \frac{f_{k-1}-f_k}{|\operatorname{grad} f(x^{k-1})|^2 |x^{k-1}-x^*|^2}$$.
+Let $$\eta = \operatorname{diam} X_0$$ where $$X_0 = \{x \in \mathbb R^n | f(x) \le f(x_0) \}$$. (then $$|x^{k-1} - x^*| \le \eta$$)
+Then Lemma 1 works in the following way:
+$$
+\varphi_m = f_m - f^* \le \frac{\eta^2}{\displaystyle \sum_{k=1}^m \frac{f_{k-1}-f{k}}{|\operatorname{grad} f(x^{k-1})|^2}}
+$$
+
+! Lemma 4.2
+> (Аттеков 168)
+
+Let $$\varphi_k = f_k - f^*$$.
+
+If $$ 
+\varphi_{k-1} - \varphi_k \ge \tau_k\varphi_{k-1} $$ 
+as $$\varphi_{k-1}>0, \: \tau_k \ge 0, \: k\in\mathbb N$$ Then
+$$
+\varphi_m = f_m - f^* \le \varphi_0 \operatorname{exp} \left(- \sum_{k=1}^m \tau_k\right) 
+$$
+
+! Theorem 4.2
+
+$$\eta$$ - "область пошуку"
+
+{{Optimization/theorem 4.2}}
+{{Optimization/theorem 4.2/2}}

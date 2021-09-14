@@ -1,0 +1,16 @@
+created: 20210327235518448
+creator: mkrooted
+modified: 20210328000246516
+modifier: mkrooted
+tags: Definition Math/Topology
+title: DenseSubset
+type: text/vnd.tiddlywiki
+
+!! (Всюди) щільна множина в $$X$$
+(Везде) плотное множество в $$X$$
+
+a subset A of a TopologicalSpace X is ''dense'' in X is equivalent to all following statements:
+
+* for any point x in X, any neighborhood of x contains at least one point from A
+* (i.e., A has non-empty intersection with every non-empty open subset of X). 
+* Equivalently, A is dense in X if and only if the smallest closed subset of X containing A is X itself (the closure of A is X)

@@ -1,0 +1,50 @@
+created: 20210329122900810
+creator: mkrooted
+modified: 20210331135025618
+modifier: mkrooted
+tags: Definition Math/Topology
+title: MetricSpace
+type: text/vnd.tiddlywiki
+
+''Метрическое пространство''
+
+$$\rho: X^2 \to [0,+\inf)$$ – ''Метрика'' если
+
+# $$\rho(x,y) = 0 \iff x=y$$
+# $$\rho(x,y) = \rho(y,x)$$
+# $$\rho(x,y) + \rho(y,z) \ge \rho(x,z)$$
+
+(Также см. [[Ультраметрика]], DiscreteSpace)
+
+! Properties
+
+* $$\rho$$ – continuous on $$(X, \rho)$$ topology
+* $$(X, \rho)$$ – [[Hausdorff Space|T2Axiom]]
+* $$X\;$$ – метризуемо $$\impliedby X\;$$ – RegularSpace со [[счетной базой|CountabilityAxioms]] (Urysohn)
+* $$X\;$$ – метризуемо $$\implies X\;$$ – [[паракомпакт|Compactness]] (Stone)
+
+!! Полность
+>Метрическое пространство ''полно'' если любая фундаментальная последовательность в нем сходится к точке этого же пространства
+
+!! Топологическая полность
+>Метрическое пространство ''топологически полно'' если существует метрика (задающая ту же топологию), при котором оно полно
+
+! Метризуемость
+''Не топологическое свойство!''
+
+<<<
+$$X\;$$ – метризуемо $$\impliedby X\;$$ – RegularSpace со [[счетной базой|CountabilityAxioms]] (Urysohn)
+<<<
+
+<<<
+$$X\;$$ – метризуемо $$\implies X\;$$ – [[паракомпакт|Compactness]] (Stone)
+<<<
+
+! Произведение метрических пространств
+Счетное произведение метрических пространств метризуемо.
+
+Метрика может быть следующей ($$x={x_n}$$, $$y={y_n}$$):
+
+<<<
+$$\rho(x,y) = \displaystyle \sum_{n=1}^\infty \frac{1}{2^n} \frac{\rho_n(x_n,y_n)}{1+\rho_n(x_n,y_n)}$$
+<<<

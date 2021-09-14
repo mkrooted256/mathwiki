@@ -1,0 +1,11 @@
+created: 20210329122419270
+creator: mkrooted
+modified: 20210329122853738
+modifier: mkrooted
+tags: Theorem Compactness Math/Topology
+title: Лемма Лебега
+type: text/vnd.tiddlywiki
+
+Пусть $$(X, \rho)$$ – [[метрический|MetricSpace]] компакт.
+
+> $$\forall U=\{U_\alpha\}$$ – открытое покрытие $$X :\; \exists \lambda=\lambda(U)>0 :\; \forall A \subset X :\; diam(A) < \lambda \implies \exists U_\gamma :\; A \subset U_\gamma$$

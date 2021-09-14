@@ -1,0 +1,28 @@
+created: 20210327230832599
+creator: mkrooted
+modified: 20210327235424252
+modifier: mkrooted
+tags: Math/Topology Definition
+title: TopologicalSpace
+type: text/vnd.tiddlywiki
+
+! Топологічний простір $$\tau$$ на множині $$X$$
+
+Існує кілька шляхів задання топологічного простору:
+
+!! ''1. via open sets''
+let $$\tau = \{V_\alpha\} \subset 2^X$$
+
+* $$X, \varnothing \in \tau$$
+* $$\forall \{V_{\alpha'}\} \subset \tau \: : \bigcup_{\alpha'}  V_{\alpha'} \in \tau$$ (any infinite unions)
+* $$ \forall \{V_{n}\} \subset \tau \: : \bigcap_{n=1}^N  V_{n} \in \tau$$ (finite intersections)
+
+!! ''2. via neighbourhoods''
+let $$V:X \to 2^X$$, $$V(x) = \{V_\alpha\} = \{V_\alpha(x)\}$$
+
+* $$\forall \alpha : x \in V_\alpha$$ (x in every neighbourhood)
+* $$ V_\alpha(x) \subset A \subset X \implies A \in V(x)$$ (every superset is again a neighbourhood)
+* $$ V_\alpha \cap V_\beta \in V(x)$$ (closure under intersections)
+* $$ \forall V_\alpha \: \exists U \subset V_\alpha : \forall y \in U : V_\alpha \in V(y)$$ (Any neighbourhood V of x includes a neighbourhood U of x such that V is a neighbourhood of each point of U.)
+
+Then $$U$$ is ''open'' in $$\tau$$ iff $$\forall y \in U :\: U \in V(y)$$ (U is a neighbourhood of all points in U)

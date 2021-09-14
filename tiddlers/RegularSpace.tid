@@ -1,0 +1,11 @@
+created: 20210328002958929
+creator: mkrooted
+modified: 20210329084347761
+modifier: mkrooted
+tags: Definition Math/Topology SeparationAxioms
+title: RegularSpace
+type: text/vnd.tiddlywiki
+
+Given any closed set F and any point x $$\notin$$ F, there exists a neighbourhood U of x and a neighbourhood V of F that are disjoint. 
+
+Concisely put, it must be possible to separate x and F with disjoint neighborhoods.

@@ -1,0 +1,11 @@
+created: 20210328000844547
+creator: mkrooted
+modified: 20210329084227503
+modifier: mkrooted
+tags: Definition Axiom Math/Topology SeparationAxioms
+title: T0Axiom
+type: text/vnd.tiddlywiki
+
+! T0 (Kolmogorov)
+
+$$a,b \in X \implies \exists U \in \tau :\: (a\in U) \oplus (b\in U)$$

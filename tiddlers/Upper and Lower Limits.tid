@@ -1,0 +1,30 @@
+created: 20210406073454508
+creator: mkrooted
+modified: 20210406083632794
+modifier: mkrooted
+tags: Definition Math
+title: Upper and Lower Limits
+type: text/vnd.tiddlywiki
+
+Let 
+
+* $$\{a_n\}$$ - sequence in $$[-\infty, \infty]$$
+* $$b_n = \sup_{k=n}^\infty a_k$$ 
+* $$\beta = \inf_{n=1}^\infty b_n$$
+
+We call $$\beta$$ the ''Upper Limit'':
+
+<<<
+$$\limsup_{n\to \infty} a_n = \beta = \inf_{n=1}^\infty \{\sup_{k=n}^\infty a_k \}$$
+<<<
+
+Analogously defined ''Lower Limit'':
+
+<<<
+$$\liminf_{n\to \infty} a_n = \sup_{n=1}^\infty \{\inf_{k=n}^\infty a_k \}$$
+<<<
+
+!! Properties
+
+* $$\liminf_{n\to \infty} a_n = -\limsup_{n\to \infty} (-a_n)$$
+* if $${a_n}$$ converges: $$\limsup_{n\to \infty} a_n = \liminf_{n\to \infty} a_n = \lim_{n\to \infty} a_n$$

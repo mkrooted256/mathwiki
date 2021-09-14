@@ -1,0 +1,31 @@
+created: 20210902170957164
+creator: mkrooted
+modified: 20210902172937882
+modifier: mkrooted
+tags: ML
+title: ML/lasso and ridge
+type: text/vnd.tiddlywiki
+
+( $\beta$ - loss function components)
+
+!! 1. lasso
+$$
+\|\beta\|_1 = \sum_{j=1}^p |\beta_j|
+$$
+
+* lasso is not smooth => can set weights to zero
+[img[L1L2_wzero.png]]
+
+
+!! 2. ridge (Tikhonov regularization)
+$$ {\displaystyle {\hat {\beta }}_{R}=(\mathbf {X} ^{\mathsf {T}}\mathbf {X} +\lambda \mathbf {I} )^{-1}\mathbf {X} ^{\mathsf {T}}\mathbf {y} }
+$$
+$$
+\|\beta\|_2 = \sum_{j=1}^p |\beta_j|^2
+$$
+
+!! 3. elasticnet
+Just mix two  weighted regularization components
+
+!! 4. ''elasticnet is equivalent to the linear ''SVM
+details https://en.wikipedia.org/wiki/Elastic_net_regularization

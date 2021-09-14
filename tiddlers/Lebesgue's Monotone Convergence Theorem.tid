@@ -1,0 +1,22 @@
+created: 20210406090712790
+creator: mkrooted
+modified: 20210406095134480
+modifier: mkrooted
+tags: Theorem Math/MeasureTheory
+title: Lebesgue's Monotone Convergence Theorem
+type: text/vnd.tiddlywiki
+
+Let
+
+* $$\{f_n\}$$ - sequence of measurable functions on $$X$$
+* $$0 \le f_1(x) \le f_2(x) \le ... \le \infty \quad \forall x\in X $$
+* $$f_n(x) \to f(x)$$ as $$n\to \infty \quad \forall x\in X $$
+
+Then 
+
+* ''$$f$$ is measurable''
+* $$\displaystyle \lim_{n \to \infty} \int_X f_n d\mu = \int_X f d\mu$$
+
+See also:
+
+* AbstractIntegration

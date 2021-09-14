@@ -1,0 +1,17 @@
+created: 20210329055228453
+creator: mkrooted
+modified: 20210329060728719
+modifier: mkrooted
+tags: Definition Math/Topology
+title: ClosedSet
+type: text/vnd.tiddlywiki
+
+! Замкнена множина в $$(X, \tau)$$
+
+<<< 
+$$F$$ - замкнена $$\iff \exists A\in\tau :\; F = X \setminus A$$ 
+<<<
+
+<<< 
+$$F$$ - замкнена $$\iff\; F$$ містить всі свої [[граничні точки]]
+<<<

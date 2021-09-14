@@ -1,0 +1,11 @@
+created: 20210328005646146
+creator: mkrooted
+modified: 20210328005846793
+modifier: mkrooted
+tags: Math/Topology Definition
+title: ДискретнаяТопология
+type: text/vnd.tiddlywiki
+
+$$\tau_1$$ - ''дискретная топология'' на $$X$$, $$\tau_1 = 2^X$$
+
+Найбольшая топология

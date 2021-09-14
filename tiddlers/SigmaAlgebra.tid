@@ -1,0 +1,28 @@
+created: 20210405124903310
+creator: mkrooted
+modified: 20210406084104907
+modifier: mkrooted
+tags: Definition Math/MeasureTheory
+title: SigmaAlgebra
+type: text/vnd.tiddlywiki
+
+* $$\mathfrak R$$ – ''$$\sigma$$-algebra'':
+*># $$X \in \mathfrak R$$
+*># $$A \in \mathfrak R \implies X\setminus A \in \mathfrak R$$
+*># $$A_n \in \mathfrak R \implies \bigcup_{n=1}^\infty A_n \in \mathfrak R$$
+
+
+* $$(X, \mathfrak R)$$ then called a ''Measurable Space''. Members of $$\mathfrak R$$ are called ''Measurable Sets''
+
+!! MeasurableMap
+* let $$f: (X, \mathfrak R) \to (Y, \tau)$$, X - measurable space, Y - TopologicalSpace. $$f$$ is a ''Measurable Map'' iff
+
+*> $$\forall V \in \tau :\; f^{-1}(V) \in \mathfrak R$$
+
+* $$s$$ is a ''Simple Measurable Map'' iff its range $$s(X)$$ is finite
+
+!! Properties
+
+# $$\varnothing \in \mathfrak R$$
+# $$\mathfrak R$$ is closed under countable intersections
+# $$A,B \in \mathfrak R \implies A \setminus B \in \mathfrak R$$

@@ -1,0 +1,13 @@
+created: 20210328004410131
+creator: mkrooted
+modified: 20210329084354961
+modifier: mkrooted
+tags: Definition Math/Topology SeparationAxioms
+title: NormalSpace
+type: text/vnd.tiddlywiki
+
+> [[T1|T1Axiom]] + [[T4|T4Axiom]]
+
+1. [[Нормальное пространство на вікі|https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE]]
+
+2. A topological space X is a normal space if, given any disjoint closed sets E and F, there are neighbourhoods U of E and V of F that are also disjoint. More intuitively, this condition says that E and F can be separated by neighbourhoods.

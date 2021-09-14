@@ -1,0 +1,11 @@
+created: 20210328002831518
+creator: mkrooted
+modified: 20210329084305576
+modifier: mkrooted
+tags: Axiom Definition Math/Topology SeparationAxioms
+title: T3Axiom
+type: text/vnd.tiddlywiki
+
+! Regular Hausdorff Space
+
+RegularSpace + Hausdorff space ([[T2Axiom]])

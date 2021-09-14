@@ -1,0 +1,16 @@
+created: 20210327225406377
+creator: mkrooted
+modified: 20210328002125407
+modifier: mkrooted
+tags: Definition Math/Topology
+title: SeparableSpace
+type: text/vnd.tiddlywiki
+
+! Сепарабельний простір
+
+In mathematics, a TopologicalSpace is called ''separable'' if it contains a countable DenseSubset; 
+
+that is, there exists a sequence $${\displaystyle \{x_{n}\}_{n=1}^{\infty }}$$ of elements of the space such that every nonempty open subset of the space contains at least one element of the sequence.
+
+Like the other axioms of countability, ''separability'' is a "limitation on size", not necessarily in terms of cardinality (though, in the presence of the [[Hausdorff axiom|T2Axiom]], this does turn out to be the case; see below) but in a more subtle topological sense. 
+In particular, //every continuous function on a separable space whose image is a subset of a Hausdorff space is determined by its values on the countable dense subset.//

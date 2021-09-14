@@ -1,0 +1,25 @@
+created: 20210329064644809
+creator: mkrooted
+modified: 20210329071044463
+modifier: mkrooted
+tags: Definition Math/Topology
+title: Отделимость
+type: text/vnd.tiddlywiki
+
+! Отделимость
+<<<
+look SeparationAxioms
+<<<
+
+! Функциональная отделимость
+$$A, B \subset X,\quad A \cap B = \varnothing$$
+
+<<<
+$$A, B\;$$ - функционально отделимы $$\iff \exists \varphi:X\to\mathbb [0,1] \text{ - неперервна} :\; \varphi(x) =
+\begin{cases}
+	0 ,& x\in A \\
+	1 ,& x\in B
+\end{cases}$$
+<<<
+
+функциональная отделимость $$\implies \exists P \supset A, Q\supset B \in \tau :\; P \cap Q = \varnothing$$

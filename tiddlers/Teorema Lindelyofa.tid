@@ -1,0 +1,11 @@
+created: 20210328005145067
+creator: mkrooted
+modified: 20210328005527474
+modifier: mkrooted
+tags: Theorem Math/Topology
+title: Теорема Линделёфа
+type: text/vnd.tiddlywiki
+
+Пусть $$(X, \tau)$$ - топ. пространство со //счетной базой//. 
+
+Тогда $$\forall$$ открытого покрытия X $$\: \exists$$ не более, чем ''счетное'' подпокрытие

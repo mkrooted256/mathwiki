@@ -1,0 +1,16 @@
+created: 20210331134905528
+creator: mkrooted
+modified: 20210331135116747
+modifier: mkrooted
+tags: Definition Math/Topology
+title: DiscreteSpace
+type: text/vnd.tiddlywiki
+
+''Discrete Space'' is a MetricSpace with 
+
+$$\rho(x,y) = d(x,y) =  \begin{cases}
+1, &x=y \\
+0, &x\ne y
+\end{cases}$$
+
+* d(x,y) – [[Ультраметрика]]

@@ -1,0 +1,36 @@
+created: 20210331121657744
+creator: mkrooted
+modified: 20210331130006817
+modifier: mkrooted
+tags: Math/Topology Compactness
+title: Компактное расширение
+type: text/vnd.tiddlywiki
+
+! Компактное расширение / Компактификация
+$$(X,\tau)$$ – топ. пространство
+
+$$(Y, \eta)$$ - ''Компактное расширение $$X$$'' $$\iff$$
+
+<<<
+$$\begin{cases}
+\exists\: f: X \hookrightarrow Y \\ 
+\tau \;\text{– топологія, індукована з}\; Y \\
+Y \text{– компакт}
+\end{cases}$$
+<<<
+
+! Одноточечная компактификация (П.С. Александрова)
+<<<
+Для $$(X, \tau)$$ найменьшей компактификацией есть
+
+$$CX = \tilde{X} = (X\cup\{\xi\},\; \eta)$$, где
+
+* $$\tau \subset \eta$$
+* $$U(\xi) = \{\;V \cup \{\xi\} \;|\; V\in\tau ,\; X\setminus V \;$$– Компакт$$\;\}$$
+<<<
+
+! Properties
+# $$CX$$ is [[Hausdorff|T2Axiom]] $$\iff X$$ is Hausdorff and locally compact
+
+! Related
+* [[Embedding]] ($$X\hookrightarrow Y$$)

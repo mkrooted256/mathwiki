@@ -1,0 +1,38 @@
+color: #387eff
+created: 20210327225915380
+creator: mkrooted
+modified: 20210331143343662
+modifier: mkrooted
+tags: Math
+title: Math/Topology
+type: text/vnd.tiddlywiki
+
+Base definitions:
+
+* TopologicalSpace (DiscreteSpace)
+* TopologyBasis
+* MetricSpace ([[Ультраметрика]])
+* [[Topological types of points]]
+* [[QuotientSpace / Фактор-пространство|QuotientSpace]]
+* [[Compactness]] ([[Properties|Compactness Properties]])
+
+Operations:
+
+* [[Topological operations on sets]]
+* [[Group Action / Действие группы|GroupAction]]
+
+Maps: 
+
+* TopologyContinuity (Непрерывность)
+* [[Embedding (Вложение)|Embedding]]
+
+Axioms:
+
+* SeparationAxioms (T0-T4, NormalSpace, RegularSpace)
+* CountabilityAxioms (first and second)
+* SeparableSpace
+
+Terms:
+
+* ProjectiveSpace
+* DenseSubset

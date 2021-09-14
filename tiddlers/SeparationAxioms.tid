@@ -1,0 +1,30 @@
+created: 20210328000437450
+creator: mkrooted
+modified: 20210329113058614
+modifier: mkrooted
+tags: Math/Topology
+title: SeparationAxioms
+type: text/vnd.tiddlywiki
+
+[[SeparationAxiomsCheatsheet]]
+
+T1, T2 $$\implies$$ T0
+
+''Kolmogorov classification''
+
+* [[T0Axiom]] 	(Kolmogorov) ($$\exists U:\;a \in U \oplus b \in U$$)
+* [[T1Axiom]] 	(Fréchet) ($$a \notin U(b) \:\&\: b \notin U(a)$$)
+* [[T2Axiom]] 	(Hausdorff) ($$U(a) \cap U(b) = \varnothing$$)
+* [[T2.5Axiom]]	(Urysohn) ($$F(U(a)) \cap F(U(b)) = \varnothing$$)
+* completely T2 	(completely Hausdorff)
+* [[T3Axiom]] 	([[regular|RegularSpace]] Hausdorff) ($$U(a) \cap U(F) = \varnothing$$)
+* [[T3.5Axiom]]	(Tychonoff)
+* [[T4Axiom]] 	([[normal|NormalSpace]] Hausdorff) ($$U(F) \cap U(G) = \varnothing$$)
+* [[T5Axiom]] 	(completely normal Hausdorff)
+* [[T6Axiom]] 	(perfectly normal Hausdorff)
+
+''Other''
+
+* RegularSpace (T1+T3)
+* NormalSpace (T1+T4) ([[compact|Compactness]] Hausdorff)
+* SeparableSpace (contains countable DenseSubset)

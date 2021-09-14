@@ -1,0 +1,11 @@
+created: 20210328002653874
+creator: mkrooted
+modified: 20210329084243830
+modifier: mkrooted
+tags: Axiom Definition Math/Topology SeparationAxioms
+title: T2.5Axiom
+type: text/vnd.tiddlywiki
+
+! Urysohn
+
+We say that x and y can be separated by closed neighborhoods if there exists a closed neighborhood U of x and a closed neighborhood V of y such that U and V are disjoint (U ∩ V = ∅). (Note that a "closed neighborhood of x" is a closed set that contains an open set containing x.)

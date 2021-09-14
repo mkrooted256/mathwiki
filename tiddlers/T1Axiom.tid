@@ -1,0 +1,20 @@
+created: 20210328001621214
+creator: mkrooted
+modified: 20210329084237497
+modifier: mkrooted
+tags: SeparationAxioms
+title: T1Axiom
+type: text/vnd.tiddlywiki
+
+! T1 (Fréchet)
+
+If X is a topological space then the following conditions are equivalent:
+
+* X is a T1 space.
+* X is a T0 space and an R0 space.
+* Points are closed in X; i.e. given any x ∈ X, the singleton set { x } is a closed set.
+* Every subset of X is the intersection of all the open sets containing it.
+* Every finite set is closed.[2]
+* Every cofinite set of X is open.
+* The fixed ultrafilter at x converges only to x.
+* For every subset S of X and every point x ∈ X, x is a limit point of S if and only if every open neighbourhood of x contains infinitely many points of S.

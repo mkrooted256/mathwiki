@@ -1,0 +1,28 @@
+created: 20210328222025915
+creator: mkrooted
+modified: 20210328224010022
+modifier: mkrooted
+tags: Definition Math/Topology
+title: TopologyBasis
+type: text/vnd.tiddlywiki
+
+! База Топології
+
+<<<
+$$B = \{B_\alpha\}$$ – База [[топології|TopologicalSpace]] $$(X,\tau)$$ якщо $$\forall \: V \in \tau :$$
+$$\begin{cases}
+   \displaystyle \exists \bigcup_{\alpha'} B_{\alpha'} = V
+	 \quad\text{(some union from B)}\\
+   \displaystyle \exists \bigcap_{n=0}^N B_{n} = V
+	 \quad\text{(finite intersection from B)}
+\end{cases}  $$
+<<<
+
+! Критерій Бази
+<<<
+$$\begin{cases}
+   \displaystyle \forall x\in X :\; \exists B_\alpha \ni x \\
+   \displaystyle \forall B_a, B_b,\; x \in B_a \cap B_b :\; 
+	 \exists B_c :\; x \in B_c \subset B_a \cap B_b
+\end{cases}  $$
+<<<

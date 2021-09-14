@@ -1,0 +1,47 @@
+created: 20210328111411077
+creator: mkrooted
+modified: 20210329060016384
+modifier: mkrooted
+tags: Definition Math/Topology
+title: TopologyContinuity
+type: text/vnd.tiddlywiki
+
+let $$\;f:(X,\tau) \to (Y, \chi), \quad y = f(x)$$
+
+! Неперервність
+<<<
+$$f$$ - continious $$\iff \; \forall A\in \chi :\; f^{-1}(A) \in \tau$$ 
+<<<
+
+<<<
+$$f$$ - continious $$\iff \; \forall A$$ - [[відкрита|OpenSet]] в $$Y :\; f^{-1}(A) \;$$ - відкрита в $$X$$
+<<<
+
+<<<
+$$f$$ - continious $$\iff \; \forall F$$ - [[замкнена|ClosedSet]] в $$Y :\; f^{-1}(F) \;$$ - замкнена в $$X$$
+<<<
+
+
+! Неперервність в точці $$x$$
+<<<
+$$\forall V \in V(f(x)) :\; \exists U \in V(x) :\; U \subset f^{-1}(V)$$
+<<<
+
+! Секвенціальна неперервність в точці $$x$$
+<<<
+$$\forall \{x_n\}\to x :\; \{f(x_n)\} \to f(x)$$
+<<<
+
+! Notes
+1.
+
+<<<
+Неперервність в точці $$\implies$$ Секвенціальна неперервність
+<<<
+
+2.
+Якщо $$(X, \tau)$$ задовільняє [[I Аксіому зліченності|CountabilityAxioms]]: 
+
+<<<
+Секвенціальна неперервність $$\implies$$ Неперервність в точці
+<<<

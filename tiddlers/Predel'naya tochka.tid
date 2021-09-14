@@ -1,0 +1,13 @@
+created: 20210329081555827
+creator: mkrooted
+modified: 20210329081732118
+modifier: mkrooted
+tags: Definition Math/Topology
+title: Предельная точка
+type: text/vnd.tiddlywiki
+
+<<<
+$$a \in X$$ – предельная точка $$A \; (A \subset X) \iff \forall U(a) :\; U(a) \cap A \ne \varnothing$$ 
+
+(любая окрестность содержит точку из A)
+<<<

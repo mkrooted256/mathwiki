@@ -1,0 +1,11 @@
+created: 20210328003129645
+creator: mkrooted
+modified: 20210329084257028
+modifier: mkrooted
+tags: Axiom Definition Math/Topology SeparationAxioms
+title: T3.5Axiom
+type: text/vnd.tiddlywiki
+
+для любого замкнутого множества F и не содержащейся в нём точки $$a$$ существует непрерывная (в данной топологии) числовая функция f(x), заданная на этом пространстве, принимающая значения от 0 до 1 на всем пространстве, причем f(a)=0 и f(x)=1 для всех x, принадлежащих F. Пространства, удовлетворяющие аксиомам T1 и T3½ называются вполне регулярными пространствами или тихоновскими пространствами; при этом иногда выполнение T1 включают в определение T3½[5], а в определении вполне регулярного пространства не включает требование аксиомы T1 (тогда в определение тихоновского пространства она включается[2].
+
+//introduced in 1930 in order to avoid the pathological situation of Hausdorff spaces whose only continuous real-valued functions are constant maps//

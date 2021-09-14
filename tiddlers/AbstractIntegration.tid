@@ -1,0 +1,39 @@
+created: 20210406091138963
+creator: mkrooted
+modified: 20210406103028174
+modifier: mkrooted
+tags: Math/MeasureTheory
+title: AbstractIntegration
+type: text/vnd.tiddlywiki
+
+Let 
+
+* $$s$$ – ''nonnegative'' simple function in the form $$s = \displaystyle\sum_{i=1}^n \alpha_i \chi_{A_i}$$
+* $$R$$ - $$\sigma$$-algebra, $$E \in R$$
+
+We define 
+$$ 
+\int_E s\:d\mu = \sum_{i=1}^n\alpha_i\mu(A_i\cap E)$$ 
+
+for measurable simple function and
+
+$$ 
+\int_E f\:d\mu = \sup \int_E s\:d\mu$$
+
+for other measurable functions (including simple)
+
+Also:
+$$ 
+\int_E f\:d\mu = \int_X \chi_E f \: d\mu$$
+
+! Properties
+#
+#> $$\displaystyle\int_E (s + t)\:d\mu = \int_E s\:d\mu + \int_E t\:d\mu$$
+# [[Lebesgue's Monotone Convergence Theorem]] 
+#> $$\displaystyle f_n \to f \implies \displaystyle \int_X f_n d\mu \to \int_X f d\mu$$
+#
+#> $$\displaystyle\int_E \sum_{i=1}^\infty\:d\mu = \sum_{i=1}^\infty \int_E s\:d\mu$$
+# ''Fatou Lemma''
+#>$$\displaystyle\int_X (\liminf_{n\to \infty}f_n)\:d\mu \le \liminf_{n\to \infty} \int_X f_n \: d\mu$$
+# $$\displaystyle\varphi(E) = \int_E f\:d\mu\quad$$ is a [[measure|Measure]] and
+#> $$\displaystyle\int_X g\: d\varphi = \int_X g f\: d\mu$$

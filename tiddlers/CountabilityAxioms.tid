@@ -1,0 +1,15 @@
+created: 20210328113442214
+creator: mkrooted
+modified: 20210328224217168
+modifier: mkrooted
+tags: Math/Topology Axiom
+title: CountabilityAxioms
+type: text/vnd.tiddlywiki
+
+$$(X, \tau)$$ – TopologicalSpace
+
+! I Аксіома Зліченності
+>$$\forall x\in X :\; \exists B_x$$ – зліченна [[База|TopologyBasis]] $$V(x)$$
+
+! II Аксіома Зліченності
+>$$\exists B$$ – зліченна [[База|TopologyBasis]] $$X$$

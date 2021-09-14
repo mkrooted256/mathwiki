@@ -1,0 +1,22 @@
+created: 20210329113421759
+creator: mkrooted
+modified: 20210329113757839
+modifier: mkrooted
+tags: Definition Math/Topology Theorem
+title: SequentialCompactness
+type: text/vnd.tiddlywiki
+
+! Секвенціальна компактність
+
+Секвенциальная компактность
+
+<<<
+$$\forall \{x_n\} :\; \exists$$ збіжна підпослідовність
+<<<
+
+! Properties 
+Якщо $$(X,\tau)$$ має зліченну базу:
+
+<<<
+[[Compactness]] $$\iff$$ sequential compactness
+<<<

@@ -1,0 +1,22 @@
+created: 20210328005859514
+creator: mkrooted
+modified: 20210328224021369
+modifier: mkrooted
+tags: Definition Math/Topology
+title: TopologyConvergence
+type: text/vnd.tiddlywiki
+
+! Збіжна послідовність (за топологією)
+ Сходимость последовательности по топологии
+
+Let $$(X, \tau)$$ - TopologicalSpace, $$\{x_n\} \subset X$$
+
+
+<<<
+$$(\{x_n\} \to a) \iff  \forall U(a) :\: \exists N \in \mathbb N :\: \forall n>N :\: x_n \in U(a) $$
+<<<
+
+! Властивості збіжної послідовності
+
+# $$(X, \tau)$$ - Hausdorff space $$\implies \forall \{x_n\} \: \exists ! a :\:  (\{x_n\} \to a)$$
+# ($$\{x_n\} \to a; \quad \phi :\: \mathbb N \to \mathbb N$$ - bijection) $$\implies \{x_{\phi(n)}\} \to a$$ (перенумерація не змінює границі)

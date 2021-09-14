@@ -1,0 +1,35 @@
+created: 20210406080618497
+creator: mkrooted
+modified: 20210406082347885
+modifier: mkrooted
+tags: Math/MeasureTheory
+title: Measure
+type: text/vnd.tiddlywiki
+
+!! Positive Measure
+Let $$R$$ - $$\sigma$$-algebra. $$\mu$$ is a ''Positive Measure'' on $$R$$ iff
+
+* $$\mu: R \to [0, +\infty]$$
+* $$\mu(\bigsqcup_{i=1}^\infty A_i) = \sum_{i=0}^\infty \mu(A_i),\quad \text{as} \; \{A_i\} \subset R$$ 
+
+!! Measure Space
+is a $$(X, R, \mu)$$
+
+!! Complex Measure
+is a complex-valued countably additive function $$ R \to \mathbb C$$
+
+!! Properties
+# $$\mu(\varnothing) = 0$$
+# $$A \subset B \implies \mu(A) \le \mu(B)$$
+# <div>
+
+let $$A_n \subset A_{n+1}$$:
+
+$$\mu(A_n) \to \mu(A = \bigcup _{n=1}^\infty A_n)$$
+</div>
+# <div>
+
+let $$A_n \supset A_{n+1}$$:
+
+$$\mu(A_n) \to \mu(A = \bigcap _{n=1}^\infty A_n)$$
+</div>

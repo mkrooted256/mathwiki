@@ -1,0 +1,25 @@
+created: 20210331122956023
+creator: mkrooted
+modified: 20210331123643312
+modifier: mkrooted
+tags: Definition Math/Topology
+title: Homeomorphism
+type: text/vnd.tiddlywiki
+
+$$(X,\tau), (Y, \eta)$$ – [[TopologicalSpace]]s
+
+<<<
+$$f: X\to Y$$ – ''homeomorphism'' $$\iff$$
+$$\begin{cases}
+f - \text{bijection} \\
+f - \text{continuous} \\
+f^{-1} - \text{continuous} \\
+\end{cases}$$
+<<<
+
+($$f$$ – Гомеоморфізм, якщо $$f$$ – бієкція, неперервна разом зі своєю оберненою)
+
+! Homeomorphic spaces
+<<<
+$$X \cong Y \iff \exists f: X\to Y :\; f$$ – homeomorphism
+<<<

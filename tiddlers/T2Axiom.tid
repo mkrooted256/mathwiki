@@ -1,0 +1,15 @@
+created: 20210328002134646
+creator: mkrooted
+modified: 20210329084249383
+modifier: mkrooted
+tags: Axiom Definition Math/Topology SeparationAxioms
+title: T2Axiom
+type: text/vnd.tiddlywiki
+
+! T2 / Hausdorff axiom
+
+Points x and y in a topological space X can be separated by neighbourhoods if there exists a neighbourhood U of x and a neighbourhood V of y such that U and V are disjoint ($${\displaystyle U\cap V=\emptyset }$$). 
+
+X is a ''Hausdorff space'' if all distinct points in X are pairwise neighbourhood-separable. The name ''separated space'' is also used. (not to be confused with SeparableSpace)
+
+{{Hausdorff_space.svg}}

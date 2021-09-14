@@ -1,0 +1,25 @@
+created: 20210329080901684
+creator: mkrooted
+modified: 20210329082506406
+modifier: mkrooted
+tags: Definition Math/Topology
+title: CondensationPoint
+type: text/vnd.tiddlywiki
+
+!Точка накопления
+<<<
+$$a \in X$$ – точка накопления $$A \; (A \subset X) \iff \forall U(a) :\; U(a) \cap A$$ – бесконечное множество 
+
+(любая окрестность содержит бесконечно много точек из A)
+<<<
+
+! Свойства
+<<<
+$$a$$ - точка накопления $$A \implies a$$ – [[Предельная точка]] $$A$$
+<<<
+
+Если выполнена Т1:
+
+<<<
+$$a$$ - точка накопления $$A \iff a$$ – [[Предельная точка]] $$A$$
+<<<
