@@ -1,7 +1,7 @@
 color: #387eff
 created: 20210327225915380
 creator: mkrooted
-modified: 20210331143343662
+modified: 20220131144814994
 modifier: mkrooted
 tags: Math
 title: Math/Topology
@@ -15,6 +15,8 @@ Base definitions:
 * [[Topological types of points]]
 * [[QuotientSpace / Фактор-пространство|QuotientSpace]]
 * [[Compactness]] ([[Properties|Compactness Properties]])
+* [[Гранична Точка]]
+* [[Точка накопичення|CondensationPoint]]
 
 Operations:
 

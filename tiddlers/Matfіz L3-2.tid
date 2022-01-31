@@ -1,0 +1,36 @@
+created: 20210918142142011
+creator: mkrooted
+modified: 20211023141827075
+modifier: mkrooted
+tags: Math/matfiz
+title: Матфіз L3-2
+type: text/vnd.tiddlywiki
+
+[img[matfiz-l3-p2-dirichlet]]
+
+! Part 2
+Рня теплопровідності
+$$\frac{\partial u}{\partial t} = \Delta u + f(\bar{x})
+$$
+$$ x\in \Omega \subseteq \mathbb{R}^n,\; t\ge 0 ;\quad \partial \Omega \text{- smooth}
+$$
+
+Let
+
+# $$u$$ - диференційовна по $$t$$ та двічі диференційовна по $$x_i$$
+# $$u$$, $$\del u$$ - абсолютно обмежені
+# $$\exists \int_{\Omega} d^n\bar{x} |u(t,\bar{x})|^2 < \infty$$
+#  $$u_1(0,x) = u_{01} \in C^{(2)}(\Omega)$$ (same for $$u_2$$)
+# + (Умови Діріхле) :: u_1|_{\partial \Omega} = u_2|_{\partial \Omega} = 0
+
+Тоді (за заданих граничних умов)
+
+* Існує єдиний розв'язок $$u_1(t, \bar{x})$$
+
+!! Proof
+
+Let $$u_1(t,x), u_2(t,x)$$ - different solutions wrt boundary conditions.
+
+Let $$W(t,x) = u_1(t,x) - u_2(t,x)$$
+
+те саме, що й для частини 1

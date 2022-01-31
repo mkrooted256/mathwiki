@@ -1,0 +1,43 @@
+created: 20211023140616641
+creator: mkrooted
+modified: 20211023142430412
+modifier: mkrooted
+tags: Math/matfiz
+title: Matfiz L7-2
+type: text/vnd.tiddlywiki
+
+!! Зв'язок між $$\hat\Lambda P_n$$ та $$P_n$$
+
+$$0 = \Delta \frac{1}{|\bar r - \bar R|} = \left(\frac{1}{r^2} \frac{\partial}{\partial r}\left(r^2 \frac{\partial}{\partial r}\right)
++ \frac{1}{r^2}\hat\Lambda\right)\frac{1}{|\bar r - \bar R|}
+$$
+З [[Matfiz L7-1 (Поліноми Лежандра)]]:
+$$\frac{1}{|\bar r - \bar R|} = \frac{1}{R}\sum_{l=0}^\infty \left(\frac{r}{R}\right)^l P_l(\cos \theta)
+$$
+
+---
+
+$$0 = \Delta \frac{1}{|\bar r - \bar R|} = \left(\frac{1}{r^2} \frac{\partial}{\partial r}\left(r^2 \frac{\partial}{\partial r}\right)
++ \frac{1}{r^2}\hat\Lambda\right)\frac{1}{|\bar r - \bar R|} = \\
+
+= \frac{1}{R} \sum_{n=0}^\infty \left[ \frac{r^{n-2}}{R^n} n(n+1) \cdot P_n(\cos \theta) + \frac{r^{n-2}}{R^n} \hat \Lambda P_n(\cos \theta) \right] = \\
+=\frac{1}{R} \sum_{n=0}^\infty \frac{r^{n-2}}{R^n} \left[n(n+1)P_n(z) + \hat \Lambda P_n(z)\right] = 0
+$$
+
+''Тобто''
+
+> $$\hat \Lambda P_n(\cos \theta) = - n(n+1) P_n(\cos \theta)
+$$
+
+!! Азимутальна симетрія
+
+> $$\Phi(r,\theta) = \sum_{n=0}^\infty f_n(r) P_n(\cos \theta)
+$$
+
+!! Рівняння Лежандра
+$$\frac{d}{dz}\left[(1-z^2)\frac{df}{dz}\right] + n(n+1)f = 0
+$$
+
+Поліноми Лежандра утворюють повну систему функцій на $$z\in[-1;1]$$
+
+Див. [[Matfiz L7-3 (приклад)]]

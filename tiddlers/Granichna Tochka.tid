@@ -1,0 +1,29 @@
+created: 20210329081555827
+creator: mkrooted
+modified: 20220131150450129
+modifier: mkrooted
+tags: Definition Math/Topology
+title: Гранична Точка
+type: text/vnd.tiddlywiki
+
+<<<
+$$a \in X$$ – предельная точка $$A \; (A \subset X) \iff$$
+
+$$\iff \exists \{x_n\} \subset A \setminus \{a\}: x_n \to a$$ 
+<<<
+
+еквівалентно,
+
+<<<
+$$a \in X$$ – предельная точка $$A \; (A \subset X) \iff$$
+
+$$\iff \forall U(a) :\; U(a) \cap A \ne \varnothing$$ 
+
+(любая окрестность содержит точку из A)
+<<<
+
+Важливо:
+
+<<<
+Умова $$\{x_n\} \subset A \setminus \{a\}$$ може бути занадто строгою. Достатньо просто умови, що послідовність ''не константна''
+<<<

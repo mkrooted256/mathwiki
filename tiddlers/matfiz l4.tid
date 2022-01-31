@@ -1,0 +1,23 @@
+created: 20210925143905622
+creator: mkrooted
+modified: 20211023141732357
+modifier: mkrooted
+tags: Math/matfiz
+title: matfiz l4
+type: text/vnd.tiddlywiki
+
+! ФІ-91 Корешков
+!! Завдання 1
+$$
+\frac{\partial u}{\partial t} = a^2 \frac{\partial^2 u}{\partial x^2} \; | \cdot u
+$$
+$$
+u\frac{\partial u}{\partial t} = a^2 u \frac{\partial^2 u}{\partial x^2}  $$
+$$
+\frac{\partial u^2}{\partial t} = a^2 u \frac{\partial^2 u}{\partial x^2}  $$
+$$
+\int \frac{\partial u^2}{\partial t} dx = a^2 \int (u(t,x) \frac{\partial^2 u}{\partial x^2})dx  $$
+$$
+\frac{d}{dt} \int u^2(t,x) dx = a^2 \int u(t,x) \frac{\partial^2 u}{\partial x^2}dx$$
+$$
+\int u^2(t,x) dx = a^2 \int u(t,x) \frac{\partial^2 u}{\partial x^2}dx dt$$

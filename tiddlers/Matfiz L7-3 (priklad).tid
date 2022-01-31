@@ -1,0 +1,46 @@
+created: 20211023142402837
+creator: mkrooted
+modified: 20211023144819172
+modifier: mkrooted
+tags: Math/matfiz
+title: Matfiz L7-3 (приклад)
+type: text/vnd.tiddlywiki
+
+Розглядаємо рівняння Лапласа
+$$\begin{cases} 
+\Delta \Phi = 0 , & \text{Шукаємо регулярний розв'язок у вигляді } \Phi(r,\theta) \\
+\Phi(R,\theta) = \sum_{l=0}^\infty a_n P_n(\cos \theta), & \text{ - гранична умова}
+\end{cases}
+$$
+
+Можемо шукати розв'язок у вигляді $$\Phi(r,\theta) = \sum f_n(r) P_n(\cos \theta)$$.
+Підставляємо в рівняння:
+
+$$\Delta\Phi = \sum_{n=0}^\infty \frac{1}{r^2} \left[\frac{\partial}{\partial r}\left(r^2 \frac{f_n}{r}\right)P_n(\cos \theta) + f_n(r) \cdot \hat\Lambda P_n(\cos \theta)\right] = \\
+
+\sum_{n=0}^\infty \left[\frac{\partial}{\partial r}\left(r^2 \frac{f_n}{r}\right) - n(n+1)f_n(r) \right]\cdot P_n(\cos \theta) = 0
+$$
+
+$$P_n(\cos \theta)$$ утворюють базис. Тому 
+$$\forall n\ge 0:\quad \frac{\partial}{\partial r}\left(r^2 \frac{f_n}{r}\right) = n(n+1)f_n(r)
+$$
+
+Нехай $$f_n \sim r^\alpha$$. Тоді $$\alpha (\alpha+1) = n(n+1)$$.
+
+Тобто $$\alpha = n$$ або $$\alpha=-(n+1)$$
+
+$$f_n(r) = C_{1n} r^n + C_{2n} r^{-(n+1)}
+$$
+
+З умови регулярності $$ C_{2n} = 0$$. Інакше $$f_n(0) \to \infty$$
+
+Підставляємо в $$\Phi(r,\theta) = \sum f_n(r) P_n(\cos \theta)$$:
+$$\sum_{n=0}^\infty C_{1n}\left(\frac{r^n}{R}\right)^nP_n(\cos \theta)
+$$
+
+Залишається задовільнити граничні умови
+
+$$\Phi(R,\theta) = \sum_{l=0}^\infty a_n P_n(\cos \theta) = \\
+= \sum_{n=0}^\infty C_{1n}\left(\frac{r^n}{R}\right)^nP_n(\cos \theta)\\
+C_{1n} = a_n
+$$

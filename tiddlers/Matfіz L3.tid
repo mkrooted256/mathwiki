@@ -1,0 +1,63 @@
+created: 20210918133454758
+creator: mkrooted
+modified: 20211023141832395
+modifier: mkrooted
+tags: Math/matfiz
+title: Матфіз L3
+type: text/vnd.tiddlywiki
+
+[img[матфіз-лекція-3]]
+
+! Part 1
+Рня теплопровідності
+$$\frac{\partial u}{\partial t} = \Delta u + f(\bar{x})
+$$
+$$ x\in \mathbb{R}^n,\; t\ge 0 
+$$
+
+Let
+
+# $$u$$ - диференційовна по $$t$$ та двічі диференційовна по $$x_i$$
+# $$u$$, $$\nabla u$$ - абсолютно обмежені
+# $$\exists \int d^n\bar{x} |u(t,\bar{x})|^2 < \infty$$
+# $$u_1(0,x) = u_{01} \in C^{(2)}$$ (same for $$u_2$$)
+
+Тоді (за заданих граничних умов)
+
+* Існує єдиний розв'язок $$u_1(t, \bar{x})$$
+
+!! Proof
+
+Let $$u_1(t,x), u_2(t,x)$$ - different solutions wrt boundary conditions.
+
+Let $$W(t,x) = u_1(t,x) - u_2(t,x)$$
+
+$$\frac{\partial W}{\partial t} = \Delta W
+$$
+$$\Delta W = \sum_i W''_{x_ix_i}
+$$
+
+Note: 3 => $$\lim_{|x|\to\infty} |u(t,x)| = 0;\quad\quad (|x| = \sqrt{\sum_i x_i^2})$$
+
+$$\int |W^2(x)|d^n x = \int |u_1 - u_2|^2d^nx < \infty$$
+
+$$W\frac{\partial W}{\partial t} = W \sum_i \frac{\partial^2 W}{\partial x_i^2} =
+$$
+$$= \sum_i \left[ \frac{\partial}{\partial x_i}(W\frac{\partial W}{\partial x_i}) - (\frac{\partial W}{\partial x_i})^2 \right] (*)
+$$
+
+Note: $$\sum_i \frac{\partial}{\partial x_i}(W\frac{\partial W}{\partial x_i}) = div (W \cdot \nabla W)$$
+
+Let's integrate both sides of the (*) equation:
+$$ \frac{d}{dt}(1/2 \int W^2(t,x)d^n x = - \int\sum_i(\frac{\partial W}{\partial x_i})^2 \le 0
+$$
+$$ \int W^2(t,x)d^nx \le \int[u_{01}(x) - u_{02}(x)]^2dx = 0
+$$
+
+Тобто ми довели єдиність: при $$u_1(0,x) = u_{01}(x) = u_{02}(x) = u_2(0,x)$$, $$\int |u_1 - u_2|^2 d^nx \le 0 \to W = 0$$
+
+А також надали оцінку різності розв'язків (якщо початкові умови різні)
+
+Note: Тут ми використали метрику $$L^2$$. Можна вимірювати по-іншому. e.g. $$|u_1 - u_2|^k$$
+
+Далі: [[Матфіз L3-2]]

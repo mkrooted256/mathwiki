@@ -1,0 +1,63 @@
+created: 20210915101617227
+creator: mkrooted
+modified: 20210915104505754
+modifier: mkrooted
+tags: Math/Optimization
+title: Optimization/Simplex Method
+type: text/vnd.tiddlywiki
+
+(15 September 2021)
+
+See also: [[Optimization/Simplex Method Algorithm]]
+
+[img[optimization-khmel-simplex-1]]
+
+Let $$x_0, x_1$$ - independant, $$y_0, y_1$$ - dependant variables.
+
+Let $$y(x) = Ax$$. $$A = \begin{pmatrix}a_{00} & a_{01} \\ a_{10} & a_{11}\end{pmatrix}$$. That is, 
+$$\begin{cases}
+	y_0 &= a_{00}x_0 + a_{01}x_1 \\
+	y_1 &= a_{10}x_0 + a_{11}x_1 \\
+\end{cases}$$
+
+Let's swap variables. Let $$y_0$$ - independant, $$x_0$$ - dependant
+$$
+a_{00} x_0 = y_0 - a_{01}x_1 $$
+$$
+x_0 = \frac{1}{a_{00}}y_0 + \frac{-a_{01}}{a_{00}}x_1 = w \cdot (y_0, x_1)
+$$
+$$
+y_1 = a_{10} \cdot x_0(y_0, x_1) + a_{11} x_1 = \frac{a_{10}}{a_{00}} y_0 + \frac{a_{00}a_{11} - a_{10}a_{01}}{a_{00}}x_1
+$$
+We have $$(x_0, y_1)^T = A'x$$
+
+!! Jordan Transformation
+!!! Step 0
+$$
+A = \begin{pmatrix}
+	a_{00} & a_{01} \\ 
+	a_{10} & a_{11}
+\end{pmatrix}
+$$
+
+!!! Step 1 
+
+# Leave leading column untouched
+# Multiply leading row with $$-1$$.
+# Set "leading element" (here $$a_{00}$$) to 1.
+# Use "rectangle" rule to get other elements
+
+$$
+A' = \begin{pmatrix}
+	1 & -a_{01} \\
+	a_{10} & \begin{vmatrix}a_{00} & a_{-01} \\ a_{10} & a_{11}\end{vmatrix}
+\end{pmatrix}
+$$
+
+!!! Step 2
+# Divide everything by $$a_{00}$$
+$$
+B = \begin{pmatrix}
+	1/a_{00} & -a_{01}/a_{00} \\
+	a_{10}/a_{00} & \begin{vmatrix}a_{00} & a_{-01} \\ a_{10} & a_{11}\end{vmatrix} / a_{00}
+\end{pmatrix}$$

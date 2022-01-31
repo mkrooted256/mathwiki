@@ -1,0 +1,47 @@
+created: 20211023132348012
+creator: mkrooted
+modified: 20211023141720894
+modifier: mkrooted
+tags: Math/matfiz
+title: Matfiz L7-0
+type: text/vnd.tiddlywiki
+
+! Рівняння Лапласа в сферичних координатах
+$$\Delta \psi = 0;\quad \psi = \psi(r,\Theta,\varphi)
+$$
+$$\Delta \psi = \frac{1}{r^2} \frac{\partial}{\partial r}\left(r^2 \frac{\partial \psi}{\partial r}\right)
++ \frac{\hat\Lambda \psi}{r^2}
+$$
+$$\hat\Lambda\psi = \frac{1}{\sin\Theta}\cdot\frac{\partial}{\partial\Theta}\left(\sin\Theta\frac{\partial\psi}{\partial\Theta}\right) + \frac{1}{\sin^2\Theta} \frac{\partial^2\psi}{\partial\phi^2}
+$$
+
+!! Азимутальна симетрія: $$\psi = \psi(r,\Theta)$$
+Використаємо метод розділення змінних
+$$\psi(r,\Theta) = \psi_r(r)\cdot\psi_\Theta(\Theta)
+$$
+$$\nabla \psi = \frac{1}{r^2} \frac{\partial}{\partial r}\left(r^2 \frac{\partial \psi}{\partial r}\right)
++ \frac{1}{r^2\sin\Theta}\cdot\frac{\partial}{\partial\Theta}\left(\sin\Theta\frac{\partial\psi}{\partial\Theta}\right) + \frac{1}{r^2\sin^2\Theta} \frac{\partial^2\psi}{\partial\varphi^2}
+= 0
+$$
+$$\nabla \psi = \frac{1}{r^2} \frac{\partial}{\partial r}\left(r^2 \frac{\partial \psi_r}{\partial r}\right)\psi_\Theta
++ \psi_r\frac{1}{r^2\sin\Theta}\cdot\frac{\partial}{\partial\Theta}\left(\sin\Theta\frac{\partial\psi_\Theta}{\partial\Theta}\right)
+= 0
+$$
+
+Ділимо на $$\psi_r\psi_\Theta$$:
+$$f(r) = \frac{1}{\psi_r(r)}\cdot \frac{1}{r^2} \frac{\partial}{\partial r}\left(r^2 \frac{\partial \psi_r}{\partial r}\right)
+= - \frac{1}{\psi_\Theta(\Theta)}\cdot\frac{1}{r^2\sin\Theta}\cdot\frac{\partial}{\partial\Theta}\left(\sin\Theta\frac{\partial\psi_\Theta}{\partial\Theta}\right) = g(\Theta)
+$$
+
+Тобто 
+$$
+\frac{1}{\sin \theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial\psi_\theta}{\partial\theta}\right) = -\lambda\psi_\theta
+$$
+
+---
+
+Let $$z=\cos\theta$$, $$\sin\theta d\theta = -dz$$
+$$
+\frac{d}{dz}\left((1-z^2)\frac{d\psi_\theta}{dz}\right)=-\lambda\psi_\theta$$
+
+Далі [[Matfiz L7-1 (Поліноми Лежандра)]]
