@@ -1,8 +1,8 @@
 created: 20210221222114811
 creator: mkrooted1
-modified: 20210221222116033
-modifier: mkrooted1
+modified: 20220131155020086
+modifier: mkrooted
 title: $:/config/AnimationDuration
 type: text/vnd.tiddlywiki
 
-300
+200
